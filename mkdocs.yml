@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Olis.dev
+dev_addr: localhost:8001
+theme:
+  name: material
+extra_css:
+  - stylesheets/olis.css
+markdown_extensions:
+  - admonition
