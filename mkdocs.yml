@@ -4,6 +4,10 @@ site_name: Olis.dev
 dev_addr: localhost:8001
 theme:
   name: material
+  favicon: assets/favicon.png
+  logo: assets/olis-logo-t.png
+  palette:
+    scheme: olis
 extra_css:
   - stylesheets/olis.css
 markdown_extensions:

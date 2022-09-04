@@ -1,3 +1,5 @@
+![](assets/olis-logo.png)
+
 # Intro to Olis
 
 Oli<span class="rtl">s</span> is a graph management application. Its job is to help administrators of [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph) manage them as a series of sub-graphs.
