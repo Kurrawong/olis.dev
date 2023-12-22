@@ -4,7 +4,7 @@
 
 Oli<span class="rtl">s</span> is a graph management application. Its job is to help administrators of [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph) manage them as a series of sub-graphs.
 
-Oli<span class="rtl">s</span> uses the [Oli<span class="rtl">s</span> Virtual Graph Ontology](ont.md) as its data model.
+Oli<span class="rtl">s</span> uses the [Oli<span class="rtl">s</span> Ontology](ont.md) as its data model.
 
 ## Opposite of Silo
 

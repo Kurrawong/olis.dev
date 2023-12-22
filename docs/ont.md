@@ -1,6 +1,8 @@
-# Olis Virtual Graph Ontology
+# Olis Ontology
 
-The Oli<span class="rtl">s</span> Virtual Graph ontology defines only a couple of classes and a few predicates for the representation of chunks of a Knowledge Graph - sub-graphs that make up the whole.
+The Oli<span class="rtl">s</span> ontology is a model of virtual and real RDF Named Graphs and relations between them.
+
+It defines only a couple of classes and a few predicates.
 
 ## RDF
 The ontology RDF is available [here](assets/olis.ttl){:download="olis.ttl"}.

@@ -13,11 +13,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://olis.dev/ontrdf>
     a owl:Ontology ;
-    dcterms:provenance "This ontology was made for internal use within the Olis tool."@en ;
     owl:versionIRI olis:0.0.2 ;
     owl:versionInfo "0.0.2" ;
-    skos:definition "This model defines data objects used by the Olis tool"@en ;
-    skos:prefLabel "Olis Virtual Graph Ontology"@en ;
     sdo:codeRepository "https://github.com/Kurrawong/olis/"^^xsd:anyURI ;
     sdo:copyrightHolder <https://orcid.org/0000-0002-8742-7730> ;
     sdo:copyrightNotice "(c) KurrawongAI, 2022-2023" ;
@@ -28,6 +25,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:publisher <https://orcid.org/0000-0002-8742-7730> ;
     sdo:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
     sdo:codeRespository "https://github.com/Kurrawong/olis.dev"^^xsd:anyURI ;
+    skos:definition "A model of virtual and real RDF Named Graphs and relations between them"@en ;
+    skos:prefLabel "Olis Ontology"@en ;
+    skos:skopeNote "This ontology is used by the Olis tool, see olis.dev" ;
 .
 
 <https://orcid.org/0000-0002-8742-7730>
