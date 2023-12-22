@@ -3,7 +3,7 @@
 The Oli<span class="rtl">s</span> Virtual Graph ontology defines only a couple of classes and a few predicates for the representation of chunks of a Knowledge Graph - sub-graphs that make up the whole.
 
 ## RDF
-The ontology RDF is available [here](assets/olis.ttl){:download="vg.ttl"}.
+The ontology RDF is available [here](assets/olis.ttl){:download="olis.ttl"}.
 
 ## Classes
 
