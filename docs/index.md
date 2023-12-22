@@ -4,9 +4,11 @@
 
 Oli<span class="rtl">s</span> is a graph management application. Its job is to help administrators of [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph) manage them as a series of sub-graphs.
 
+Oli<span class="rtl">s</span> uses the [Oli<span class="rtl">s</span> Virtual Graph Ontology](ont.md) as its data model.
+
 ## Opposite of Silo
 
-Oli<span class="rtl">s</span>, "Silo", reversed!, is the _opposite_ of a Data Silo as there are as few barriers as possible to getting data in and out, and even moving away from an Oli<span class="rtl">s</span>-managed dataset.
+Oli<span class="rtl">s</span>, "Silo", reversed!, is the _opposite_ of a Data Silo as Oli<span class="rtl">s</span> is designed to manage data in its most reusable form - a strongly defined, open standards-based, dataset. There are as few barriers as we can think of to getting data in and out of an Oli<span class="rtl">s</span>-based system, and even moving away from an Oli<span class="rtl">s</span>-managed dataset entirely.
 
 Oli<span class="rtl">s</span> does things to ensure you are completely in control of your data and not locked in my it:
 
@@ -40,12 +42,14 @@ Using the Oli<span class="rtl">s</span> API, you can make Virtual Graphs for com
 
 ## How I get it
 
-Oli<span class="rtl">s</span> is currently in pre-Alpha testing with a limited number of implementers now (September 2022). Please contact [Kurrawong AI](http://kurrawong.net) if you want in!
+Oli<span class="rtl">s</span> is currently in pre-Alpha testing with a limited number of implementers now (September 2022). Please contact [Kurrawong AI](https://kurrawong.ai) if you want in!
 
 ## Status
 
 **Date** | **Status**
 --- | ---
+December 2023 | Ontology publication
+November 2023 | API re-implementation using SPARQL grammar
 September 2022 | Pre-Alpha testing
 November 2022 | Expected Alpha release
 

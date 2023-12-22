@@ -7,6 +7,7 @@ authors = ["Nicholas Car <nick@kurrawong.net>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 mkdocs-material = "^8.3.9"
+mkdocs-redirects = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
 

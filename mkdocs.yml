@@ -12,3 +12,14 @@ extra_css:
   - stylesheets/olis.css
 markdown_extensions:
   - admonition
+  - attr_list
+use_directory_urls: true
+nav:
+  - 'index.md'
+  - API: 'api.md'
+  - Ontology: 'ont.md'
+  - Ont RDF: 'assets/olis.ttl'
+plugins:
+  - redirects:
+      redirect_maps:
+        'ontrdf.md': 'https://github.com/Kurrawong/olis.dev/raw/master/docs/assets/olis.ttl'
