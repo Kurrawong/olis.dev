@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "olis": "https://olis.dev/",    
+    "RealGraph": "olis:RealGraph",
+    "VirtualGraph": "olis:VirtualGraph",
+    "hasGraphRole": "olis:hasGraphRole",
+    "isAliasFor": "olis:isAliasFor",
+    "gr": "https://olis.dev/GraphRoles/"
+  }
+}
