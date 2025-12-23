@@ -18,6 +18,7 @@ nav:
   - 'index.md'
   - API: 'api.md'
   - Ontology: 'ont.md'
+  - Graph Roles Vocab: 'graph-roles.md'
   - Ont RDF: 'assets/olis.ttl'
 plugins:
   - redirects:

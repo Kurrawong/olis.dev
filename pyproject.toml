@@ -1,16 +1,20 @@
-[tool.poetry]
+[project]
 name = "olis.dev"
 version = "0.1.0"
-description = ""
-authors = ["Nicholas Car <nick@kurrawong.net>"]
+description = "The content of the website https://olis.dev"
+authors = [{ name = "Nicholas Car", email = "nick@kurrawong.ai" }]
+requires-python = ">=3.12,<4"
+dependencies = [
+    "mkdocs-material>=8.3.9,<9",
+    "mkdocs-redirects>=1.2.1,<2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-mkdocs-material = "^8.3.9"
-mkdocs-redirects = "^1.2.1"
-
-[tool.poetry.dev-dependencies]
+[dependency-groups]
+dev = []
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["docs"]
