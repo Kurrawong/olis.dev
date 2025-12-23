@@ -132,16 +132,19 @@ ex:realGraphA
 ex:realGraphB
     a :RealGraph ;
     :hasGraphRole gr:Inferred ;
+    :hasBaseGraph ex:realGraphA ;
 .
 
 ex:realGraphC
     a :RealGraph ;
     :hasGraphRole gr:Added ;
+    :hasBaseGraph ex:realGraphA ;
 .
 
 ex:realGraphD
     a :RealGraph ;
     :hasGraphRole gr:Removed ;
+    :hasBaseGraph ex:realGraphA ;
 .
 
 ex:realGraphE
