@@ -10,6 +10,12 @@ The vocabulary RDF is available [here](assets/olis-gr.ttl){:download="olis-gr.tt
 
 ## Concepts
 
+* [Added](#added)
+* [Inferred](#inferred)
+* [Original](#original)
+* [Removed](#removed)
+* [Rules](#rules)
+
 ### Added
 
 `https://olis.dev/GraphRoles/Added`
@@ -33,3 +39,9 @@ The subject Real Graph is asserted without relation to another Named Graph.
 `https://olis.dev/GraphRoles/Removed`
 
 The subject Real Graph is removed from another Named Graph.
+
+### Rules
+
+`https://olis.dev/GraphRoles/Rules`
+
+The subject Real Graph is rules to be applied to another Named Graph.

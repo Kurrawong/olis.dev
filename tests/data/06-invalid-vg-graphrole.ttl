@@ -1,0 +1,8 @@
+PREFIX ex: <http://example.com/>
+PREFIX gr: <https://olis.dev/GraphRoles/>
+PREFIX olis: <https://olis.dev/>
+
+ex:rg-1
+    a olis:VirtualGraph ;
+    olis:hasGraphRole gr:Added ;
+.

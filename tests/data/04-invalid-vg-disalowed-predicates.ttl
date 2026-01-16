@@ -1,0 +1,12 @@
+PREFIX ex: <http://example.com/>
+PREFIX olis: <https://olis.dev/>
+
+ex:rg-1
+    a olis:VirtualGraph ;
+    olis:hasBaseGraph ex:rg-2 ;
+.
+
+
+ex:rg-2
+    a olis:RealGraph ;
+.
